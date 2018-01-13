@@ -53,6 +53,7 @@ When prompted if we still want to continue due to being unable to authenticate t
 2. $docker Images                                                       #This lists and verify the Image that was pulled
 3. *Optional* $docker tag (Image ID) (alternate name, eg. dsnb)         #This creates a new Image that shares the same Image ID
 4. $docker run -v /home/ubuntu:/home/jovyan -p 80:8888 -d dsnb          #This command allows the writing of files from Jupyter to AWS
+-v allows us to write files to AWS. 80 is the port of HTTP which we assigned in AWS Security group. 8888 is Docker's assigned port.
 5. $docker ps                                                           #This views the containers that are running
 6. $docker exec (container ID) jupyter notebook list                    #Jupyter notebook servers running on our docker container
 From the currently running servers list, copy the token number within the displayed url parameter
