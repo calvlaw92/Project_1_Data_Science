@@ -60,7 +60,7 @@ From the currently running servers list, copy the token number within the displa
 7. Go to webpage browser and type (IPv4 Public IP number) into the address bar to take you to jupyter
 8. Paste the token number into the password/token number box to log into jupyter
 
-**Security Concerns with Jupyter**
+**Security Concerns with Jupyter**<br />
 Jupyter has an arbitrary code execution, which means it includes output, people that accessed someone elses code and execute it if they opened a notebook that they did not write. Which is why, Jupyter added a next level of security by asking for a token number. As Jupyter is becoming more popular, it being a publicly accessible server that is on the open web, means that it is more susceptible to being hacked by nefarious people.
 
 **Diagram of Overall System**
