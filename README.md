@@ -61,7 +61,7 @@ From the currently running servers list, copy the token number within the displa
 8. Paste the token number into the password/token number box to log into jupyter
 
 **Security Concerns with Jupyter**
-
+Jupyter has an arbitrary code execution, which means it includes output, people that accessed someone elses code and execute it if they opened a notebook that they did not write. Which is why, Jupyter added a next level of security by asking for a token number. As Jupyter is becoming more popular, it being a publicly accessible server that is on the open web, means that it is more susceptible to being hacked by nefarious people.
 
 **Diagram of Overall System**
 <img width="769" alt="screen shot 2018-01-13 at 11 29 03 pm" src="https://user-images.githubusercontent.com/24471044/34913704-9e9fac6a-f8b9-11e7-905a-159900efeb5e.png">
